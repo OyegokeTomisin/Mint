@@ -1,6 +1,5 @@
 excluded:
-- Mint/AppDelegate.swift
-- Mint/SceneDelegate.swift
+- Mint/AppDelegate
 
 disabled_rules:
 - trailing_whitespace
