@@ -27,6 +27,10 @@
 		4F1909D0251E2498008D32F5 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909CF251E2498008D32F5 /* JSONParameterEncoder.swift */; };
 		4F1909D2251E24FF008D32F5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909D1251E24FF008D32F5 /* SessionManager.swift */; };
 		4F1909D6251E2729008D32F5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909C5251E2437008D32F5 /* NetworkError.swift */; };
+		4F1909DD251E2811008D32F5 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909DC251E2811008D32F5 /* GitHubAPI.swift */; };
+		4F1909DF251E2859008D32F5 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909DE251E2859008D32F5 /* GitHubRequest.swift */; };
+		4F1909E1251E292C008D32F5 /* GitCommitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909E0251E292C008D32F5 /* GitCommitResponse.swift */; };
+		4F1909E3251E2A28008D32F5 /* GitHubRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909E2251E2A28008D32F5 /* GitHubRequestService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		4F1909CD251E248C008D32F5 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		4F1909CF251E2498008D32F5 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		4F1909D1251E24FF008D32F5 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4F1909DC251E2811008D32F5 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		4F1909DE251E2859008D32F5 /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
+		4F1909E0251E292C008D32F5 /* GitCommitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitResponse.swift; sourceTree = "<group>"; };
+		4F1909E2251E2A28008D32F5 /* GitHubRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequestService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +118,9 @@
 				4F1909B6251E1C00008D32F5 /* CommitHistoryViewController.swift */,
 				4F1909B8251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift */,
 				4F190999251E189D008D32F5 /* Main.storyboard */,
-				4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */,
 				4F1909BC251E1E3D008D32F5 /* Cell+Extension.swift */,
+				4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */,
+				4F1909DB251E27F9008D32F5 /* API */,
 				4F1909BE251E23ED008D32F5 /* Networking */,
 				4F19099C251E18A2008D32F5 /* Assets.xcassets */,
 				4F19099E251E18A2008D32F5 /* LaunchScreen.storyboard */,
@@ -168,6 +177,17 @@
 				4F1909C7251E244B008D32F5 /* EndpointType.swift */,
 			);
 			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		4F1909DB251E27F9008D32F5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4F1909DC251E2811008D32F5 /* GitHubAPI.swift */,
+				4F1909DE251E2859008D32F5 /* GitHubRequest.swift */,
+				4F1909E0251E292C008D32F5 /* GitCommitResponse.swift */,
+				4F1909E2251E2A28008D32F5 /* GitHubRequestService.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,8 +320,12 @@
 				4F1909BD251E1E3D008D32F5 /* Cell+Extension.swift in Sources */,
 				4F1909CA251E2464008D32F5 /* NetworkEnvironment.swift in Sources */,
 				4F1909B7251E1C00008D32F5 /* CommitHistoryViewController.swift in Sources */,
+				4F1909E1251E292C008D32F5 /* GitCommitResponse.swift in Sources */,
 				4F1909CC251E2477008D32F5 /* ParameterEncoding.swift in Sources */,
+				4F1909DD251E2811008D32F5 /* GitHubAPI.swift in Sources */,
 				4F1909C4251E2422008D32F5 /* HTTPMethod.swift in Sources */,
+				4F1909E3251E2A28008D32F5 /* GitHubRequestService.swift in Sources */,
+				4F1909DF251E2859008D32F5 /* GitHubRequest.swift in Sources */,
 				4F1909D2251E24FF008D32F5 /* SessionManager.swift in Sources */,
 				4F1909D6251E2729008D32F5 /* NetworkError.swift in Sources */,
 				4F1909CE251E248C008D32F5 /* URLParameterEncoder.swift in Sources */,
