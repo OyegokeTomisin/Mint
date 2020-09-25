@@ -1,0 +1,3 @@
+excluded:
+- Mint/AppDelegate.swift
+- Mint/SceneDelegate.swift
