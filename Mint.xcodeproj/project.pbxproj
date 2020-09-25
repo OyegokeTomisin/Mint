@@ -17,6 +17,16 @@
 		4F1909BA251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909B8251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift */; };
 		4F1909BB251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */; };
 		4F1909BD251E1E3D008D32F5 /* Cell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909BC251E1E3D008D32F5 /* Cell+Extension.swift */; };
+		4F1909C0251E2400008D32F5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909BF251E2400008D32F5 /* Router.swift */; };
+		4F1909C2251E2415008D32F5 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909C1251E2415008D32F5 /* HTTPTask.swift */; };
+		4F1909C4251E2422008D32F5 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909C3251E2422008D32F5 /* HTTPMethod.swift */; };
+		4F1909C8251E244B008D32F5 /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909C7251E244B008D32F5 /* EndpointType.swift */; };
+		4F1909CA251E2464008D32F5 /* NetworkEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909C9251E2464008D32F5 /* NetworkEnvironment.swift */; };
+		4F1909CC251E2477008D32F5 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909CB251E2477008D32F5 /* ParameterEncoding.swift */; };
+		4F1909CE251E248C008D32F5 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909CD251E248C008D32F5 /* URLParameterEncoder.swift */; };
+		4F1909D0251E2498008D32F5 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909CF251E2498008D32F5 /* JSONParameterEncoder.swift */; };
+		4F1909D2251E24FF008D32F5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909D1251E24FF008D32F5 /* SessionManager.swift */; };
+		4F1909D6251E2729008D32F5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909C5251E2437008D32F5 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		4F1909B8251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommitHistoryTableViewCell.xib; sourceTree = "<group>"; };
 		4F1909BC251E1E3D008D32F5 /* Cell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell+Extension.swift"; sourceTree = "<group>"; };
+		4F1909BF251E2400008D32F5 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		4F1909C1251E2415008D32F5 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		4F1909C3251E2422008D32F5 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		4F1909C5251E2437008D32F5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4F1909C7251E244B008D32F5 /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		4F1909C9251E2464008D32F5 /* NetworkEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnvironment.swift; sourceTree = "<group>"; };
+		4F1909CB251E2477008D32F5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		4F1909CD251E248C008D32F5 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		4F1909CF251E2498008D32F5 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		4F1909D1251E24FF008D32F5 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +112,7 @@
 				4F190999251E189D008D32F5 /* Main.storyboard */,
 				4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */,
 				4F1909BC251E1E3D008D32F5 /* Cell+Extension.swift */,
+				4F1909BE251E23ED008D32F5 /* Networking */,
 				4F19099C251E18A2008D32F5 /* Assets.xcassets */,
 				4F19099E251E18A2008D32F5 /* LaunchScreen.storyboard */,
 				4F1909A1251E18A2008D32F5 /* Info.plist */,
@@ -106,6 +127,47 @@
 				4F1909AC251E18A2008D32F5 /* Info.plist */,
 			);
 			path = MintTests;
+			sourceTree = "<group>";
+		};
+		4F1909BE251E23ED008D32F5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4F1909BF251E2400008D32F5 /* Router.swift */,
+				4F1909D5251E2707008D32F5 /* Endpoint */,
+				4F1909D4251E26E4008D32F5 /* Network Session */,
+				4F1909D3251E26C5008D32F5 /* Parameter Encoding */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4F1909D3251E26C5008D32F5 /* Parameter Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				4F1909CB251E2477008D32F5 /* ParameterEncoding.swift */,
+				4F1909CD251E248C008D32F5 /* URLParameterEncoder.swift */,
+				4F1909CF251E2498008D32F5 /* JSONParameterEncoder.swift */,
+			);
+			path = "Parameter Encoding";
+			sourceTree = "<group>";
+		};
+		4F1909D4251E26E4008D32F5 /* Network Session */ = {
+			isa = PBXGroup;
+			children = (
+				4F1909D1251E24FF008D32F5 /* SessionManager.swift */,
+				4F1909C9251E2464008D32F5 /* NetworkEnvironment.swift */,
+			);
+			path = "Network Session";
+			sourceTree = "<group>";
+		};
+		4F1909D5251E2707008D32F5 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				4F1909C1251E2415008D32F5 /* HTTPTask.swift */,
+				4F1909C5251E2437008D32F5 /* NetworkError.swift */,
+				4F1909C3251E2422008D32F5 /* HTTPMethod.swift */,
+				4F1909C7251E244B008D32F5 /* EndpointType.swift */,
+			);
+			path = Endpoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +294,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1909C8251E244B008D32F5 /* EndpointType.swift in Sources */,
+				4F1909C2251E2415008D32F5 /* HTTPTask.swift in Sources */,
 				4F190994251E189D008D32F5 /* AppDelegate.swift in Sources */,
 				4F1909BD251E1E3D008D32F5 /* Cell+Extension.swift in Sources */,
+				4F1909CA251E2464008D32F5 /* NetworkEnvironment.swift in Sources */,
 				4F1909B7251E1C00008D32F5 /* CommitHistoryViewController.swift in Sources */,
+				4F1909CC251E2477008D32F5 /* ParameterEncoding.swift in Sources */,
+				4F1909C4251E2422008D32F5 /* HTTPMethod.swift in Sources */,
+				4F1909D2251E24FF008D32F5 /* SessionManager.swift in Sources */,
+				4F1909D6251E2729008D32F5 /* NetworkError.swift in Sources */,
+				4F1909CE251E248C008D32F5 /* URLParameterEncoder.swift in Sources */,
 				4F1909BA251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift in Sources */,
+				4F1909C0251E2400008D32F5 /* Router.swift in Sources */,
+				4F1909D0251E2498008D32F5 /* JSONParameterEncoder.swift in Sources */,
 				4F190996251E189D008D32F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
