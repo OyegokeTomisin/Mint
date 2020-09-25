@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W8J-ie-5Xi">
-                                <rect key="frame" x="0.0" y="74" width="414" height="822"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W8J-ie-5Xi">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="1TL-yg-bhF"/>
@@ -45,7 +45,7 @@
                         <constraints>
                             <constraint firstItem="W8J-ie-5Xi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="50c-xx-NCP"/>
                             <constraint firstItem="W8J-ie-5Xi" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dld-Ue-u1x"/>
-                            <constraint firstItem="W8J-ie-5Xi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="eGu-h0-57S"/>
+                            <constraint firstItem="W8J-ie-5Xi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="eGu-h0-57S"/>
                             <constraint firstAttribute="bottom" secondItem="W8J-ie-5Xi" secondAttribute="bottom" id="iu8-db-prR"/>
                             <constraint firstItem="47I-sm-4zc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jfi-Go-atS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="47I-sm-4zc" secondAttribute="trailing" constant="20" id="l5Z-IJ-UVm"/>
