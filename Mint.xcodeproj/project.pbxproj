@@ -13,6 +13,10 @@
 		4F19099D251E18A2008D32F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F19099C251E18A2008D32F5 /* Assets.xcassets */; };
 		4F1909A0251E18A2008D32F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F19099E251E18A2008D32F5 /* LaunchScreen.storyboard */; };
 		4F1909AB251E18A2008D32F5 /* MintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909AA251E18A2008D32F5 /* MintTests.swift */; };
+		4F1909B7251E1C00008D32F5 /* CommitHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909B6251E1C00008D32F5 /* CommitHistoryViewController.swift */; };
+		4F1909BA251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909B8251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift */; };
+		4F1909BB251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */; };
+		4F1909BD251E1E3D008D32F5 /* Cell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1909BC251E1E3D008D32F5 /* Cell+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		4F1909A6251E18A2008D32F5 /* MintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1909AA251E18A2008D32F5 /* MintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintTests.swift; sourceTree = "<group>"; };
 		4F1909AC251E18A2008D32F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1909B6251E1C00008D32F5 /* CommitHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitHistoryViewController.swift; sourceTree = "<group>"; };
+		4F1909B8251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommitHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		4F1909BC251E1E3D008D32F5 /* Cell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,11 @@
 			children = (
 				4F190993251E189D008D32F5 /* AppDelegate.swift */,
 				4F190995251E189D008D32F5 /* SceneDelegate.swift */,
+				4F1909B6251E1C00008D32F5 /* CommitHistoryViewController.swift */,
+				4F1909B8251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift */,
 				4F190999251E189D008D32F5 /* Main.storyboard */,
+				4F1909B9251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib */,
+				4F1909BC251E1E3D008D32F5 /* Cell+Extension.swift */,
 				4F19099C251E18A2008D32F5 /* Assets.xcassets */,
 				4F19099E251E18A2008D32F5 /* LaunchScreen.storyboard */,
 				4F1909A1251E18A2008D32F5 /* Info.plist */,
@@ -179,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1909A0251E18A2008D32F5 /* LaunchScreen.storyboard in Resources */,
+				4F1909BB251E1C1F008D32F5 /* CommitHistoryTableViewCell.xib in Resources */,
 				4F19099D251E18A2008D32F5 /* Assets.xcassets in Resources */,
 				4F19099B251E189D008D32F5 /* Main.storyboard in Resources */,
 			);
@@ -220,6 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F190994251E189D008D32F5 /* AppDelegate.swift in Sources */,
+				4F1909BD251E1E3D008D32F5 /* Cell+Extension.swift in Sources */,
+				4F1909B7251E1C00008D32F5 /* CommitHistoryViewController.swift in Sources */,
+				4F1909BA251E1C1F008D32F5 /* CommitHistoryTableViewCell.swift in Sources */,
 				4F190996251E189D008D32F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
