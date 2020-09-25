@@ -8,16 +8,16 @@
 
 import Foundation
 
-protocol GitCommitRequestPootocol: class {
+protocol GitCommitRequestProtocol: class {
     func didCompleteFetchWithSuccess(commits: [GitCommitResponse])
     func didCompleteFetchWithError(message: String)
 }
 
 struct GitHubRequestService {
-    
+
     private var request = GitHubRequest()
-    weak var delegate: GitCommitRequestPootocol?
-    
+    weak var delegate: GitCommitRequestProtocol?
+
     func fetchCommit(with fetchLimit: Int = 25) {
         request.fetchCommit(upto: fetchLimit) { (result) in
             switch result {

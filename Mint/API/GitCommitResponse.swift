@@ -10,7 +10,6 @@ import Foundation
 
 struct GitCommitResponse: Codable {
     let commit: Commit?
-    let author: Author?
 }
 
 struct Commit: Codable {
@@ -22,7 +21,7 @@ struct Author: Codable {
     let date: String?
     let email: String?
     let avatarUrl: String?
-
+    
     enum CodingKeys: String, CodingKey {
         case name, date, email
         case avatarUrl = "avatar_url"

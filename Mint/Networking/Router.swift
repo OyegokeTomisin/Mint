@@ -91,7 +91,9 @@ extension Router {
             completion(.failure(error ?? NetworkError.incompleteRequest))
             return
         }
-        decodeData(data, completion)
+        DispatchQueue.main.async {
+            self.decodeData(data, completion)
+        }
     }
     
     private func decodeData<T: Codable>(_ data: Data, _ completion: (Result<T, Error>) -> Void) {
