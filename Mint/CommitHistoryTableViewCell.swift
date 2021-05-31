@@ -11,7 +11,7 @@ import UIKit
 class CommitHistoryTableViewCell: UITableViewCell {
 
     @IBOutlet weak var commitAuthorLabel: UILabel!
-    @IBOutlet weak var subtitleLabel: UILabel!
+    @IBOutlet weak var subtitleLbl: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,6 +23,6 @@ class CommitHistoryTableViewCell: UITableViewCell {
 
     func configureCell(with commit: GitCommitResponse) {
         commitAuthorLabel.text = commit.commit?.author?.name
-        subtitleLabel.text = commit.commit?.author?.email
+        subtitleLbl.text = commit.commit?.author?.email
     }
 }

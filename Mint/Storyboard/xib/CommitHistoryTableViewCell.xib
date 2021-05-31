@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -57,7 +57,7 @@
                         </subviews>
                     </stackView>
                 </subviews>
-                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="backgroundColor" systemColor="systemYellowColor"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="abE-e9-cdo" secondAttribute="trailing" constant="15" id="FvQ-L0-Guz"/>
                     <constraint firstItem="abE-e9-cdo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="FyP-NE-Qvb"/>
@@ -68,9 +68,14 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="commitAuthorLabel" destination="IeS-Ac-0Db" id="poP-Os-gPM"/>
-                <outlet property="subtitleLabel" destination="GtQ-vy-VJb" id="Mtl-5e-d2r"/>
+                <outlet property="subtitleLbl" destination="GtQ-vy-VJb" id="Mtl-5e-d2r"/>
             </connections>
             <point key="canvasLocation" x="-37.681159420289859" y="20.424107142857142"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
