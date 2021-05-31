@@ -23,7 +23,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h1Z-VY-wSH">
                                 <rect key="frame" x="0.0" y="0.0" width="80" height="55"/>
-                                <color key="backgroundColor" red="0.89433976719999997" green="0.47843137250000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="0Jw-ZF-eLg"/>
                                     <constraint firstAttribute="height" constant="55" id="uiW-s2-coL"/>
@@ -76,6 +76,9 @@
         </tableViewCell>
     </objects>
     <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
